@@ -1,0 +1,2468 @@
+[
+ {
+  "file": "20111111112_001_00001_00000001.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/01/2020",
+  "total": 37186.06,
+  "neto": 30732.28,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000001",
+  "ref": null,
+  "concepto": "Brida de acople arenada 8,00 unidades 3.841,53 0,00 30.732,28 21% 37.186,06",
+  "items": [
+   "Brida de acople arenada 8,00 unidades 3.841,53 0,00 30.732,28 21% 37.186,06"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000002.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/02/2020",
+  "total": 31787.63,
+  "neto": 26270.77,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000002",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 6,00 unidades 4.378,46 0,00 26.270,77 21% 31.787,63",
+  "items": [
+   "Carcasa de entrada de gases arenada 6,00 unidades 4.378,46 0,00 26.270,77 21% 31.787,63"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000003.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/03/2020",
+  "total": 35202.06,
+  "neto": 29092.61,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000003",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 2,00 unidades 14.546,31 0,00 29.092,61 21% 35.202,06",
+  "items": [
+   "Carcasa de turbina arenada 2,00 unidades 14.546,31 0,00 29.092,61 21% 35.202,06"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000018.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/03/2020",
+  "total": 8517.15,
+  "neto": 7038.97,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000018",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 8,00 unidades 879,87 0,00 7.038,97 21% 8.517,15",
+  "items": [
+   "Carcasa de salida de gases arenada 8,00 unidades 879,87 0,00 7.038,97 21% 8.517,15"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000004.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/04/2020",
+  "total": 32538.27,
+  "neto": 26891.13,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000004",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 8,00 unidades 3.361,39 0,00 26.891,13 21% 32.538,27",
+  "items": [
+   "Anillo de tobera arenado 8,00 unidades 3.361,39 0,00 26.891,13 21% 32.538,27"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000013.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/04/2020",
+  "total": 123012.04,
+  "neto": 101662.84,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000013",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 12,00 unidades 8.471,90 0,00 101.662,84 21% 123.012,04",
+  "items": [
+   "Base de anclaje arenada 12,00 unidades 8.471,90 0,00 101.662,84 21% 123.012,04"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000005.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/05/2020",
+  "total": 39494.03,
+  "neto": 32639.69,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000005",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 1,00 unidades 32.639,69 0,00 32.639,69 21% 39.494,03",
+  "items": [
+   "Anillo de tobera arenado 1,00 unidades 32.639,69 0,00 32.639,69 21% 39.494,03"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000016.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/05/2020",
+  "total": 10612.17,
+  "neto": 8770.39,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000016",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 8,00 unidades 1.096,30 0,00 8.770,39 21% 10.612,17",
+  "items": [
+   "Difusor de gases arenado 8,00 unidades 1.096,30 0,00 8.770,39 21% 10.612,17"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000006.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/06/2020",
+  "total": 37992.43,
+  "neto": 31398.7,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000006",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 3,00 unidades 10.466,23 0,00 31.398,70 21% 37.992,43",
+  "items": [
+   "Carcasa de turbina arenada 3,00 unidades 10.466,23 0,00 31.398,70 21% 37.992,43"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000014.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/06/2020",
+  "total": 109297.33,
+  "neto": 90328.37,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000014",
+  "ref": null,
+  "concepto": "Brida de acople arenada 4,00 unidades 22.582,09 0,00 90.328,37 21% 109.297,33",
+  "items": [
+   "Brida de acople arenada 4,00 unidades 22.582,09 0,00 90.328,37 21% 109.297,33"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000007.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/07/2020",
+  "total": 42146.5,
+  "neto": 34831.82,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000007",
+  "ref": null,
+  "concepto": "Brida de acople arenada 1,00 unidades 34.831,82 0,00 34.831,82 21% 42.146,50",
+  "items": [
+   "Brida de acople arenada 1,00 unidades 34.831,82 0,00 34.831,82 21% 42.146,50"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000020.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/07/2020",
+  "total": 7331.67,
+  "neto": 6059.23,
+  "cliente": "CLIENTE EPSILON S.A.",
+  "cuit_cli": "30711111159",
+  "pv": "00001",
+  "nro": "00000020",
+  "ref": null,
+  "concepto": "Protección térmica arenada 6,00 unidades 1.009,87 0,00 6.059,23 21% 7.331,67",
+  "items": [
+   "Protección térmica arenada 6,00 unidades 1.009,87 0,00 6.059,23 21% 7.331,67"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000008.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/08/2020",
+  "total": 36509.64,
+  "neto": 30173.26,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000008",
+  "ref": null,
+  "concepto": "Brida de acople arenada 8,00 unidades 3.771,66 0,00 30.173,26 21% 36.509,64",
+  "items": [
+   "Brida de acople arenada 8,00 unidades 3.771,66 0,00 30.173,26 21% 36.509,64"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000019.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/09/2020",
+  "total": 8738.72,
+  "neto": 7222.08,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000019",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 8,00 unidades 902,76 0,00 7.222,08 21% 8.738,72",
+  "items": [
+   "Anillo de tobera arenado 8,00 unidades 902,76 0,00 7.222,08 21% 8.738,72"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000009.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/09/2020",
+  "total": 44215.49,
+  "neto": 36541.73,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000009",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 3,00 unidades 12.180,58 0,00 36.541,73 21% 44.215,49",
+  "items": [
+   "Carcasa de salida de gases arenada 3,00 unidades 12.180,58 0,00 36.541,73 21% 44.215,49"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000021.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/10/2020",
+  "total": 5176.83,
+  "neto": 4278.37,
+  "cliente": "CLIENTE ZETA S.A.",
+  "cuit_cli": "30711111167",
+  "pv": "00001",
+  "nro": "00000021",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 6,00 unidades 713,06 0,00 4.278,37 21% 5.176,83",
+  "items": [
+   "Carcasa de salida de gases arenada 6,00 unidades 713,06 0,00 4.278,37 21% 5.176,83"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000010.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/10/2020",
+  "total": 43107.22,
+  "neto": 35625.8,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000010",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 6,00 unidades 5.937,63 0,00 35.625,80 21% 43.107,22",
+  "items": [
+   "Carcasa de salida de gases arenada 6,00 unidades 5.937,63 0,00 35.625,80 21% 43.107,22"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000011.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/11/2020",
+  "total": 47190.47,
+  "neto": 39000.39,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000011",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 6,00 unidades 6.500,06 0,00 39.000,39 21% 47.190,47",
+  "items": [
+   "Anillo de tobera arenado 6,00 unidades 6.500,06 0,00 39.000,39 21% 47.190,47"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000017.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/11/2020",
+  "total": 13919.8,
+  "neto": 11503.97,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000017",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 1,00 unidades 11.503,97 0,00 11.503,97 21% 13.919,80",
+  "items": [
+   "Difusor de gases arenado 1,00 unidades 11.503,97 0,00 11.503,97 21% 13.919,80"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000012.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/12/2020",
+  "total": 43220.08,
+  "neto": 35719.07,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000012",
+  "ref": null,
+  "concepto": "Protección térmica arenada 1,00 unidades 35.719,07 0,00 35.719,07 21% 43.220,08",
+  "items": [
+   "Protección térmica arenada 1,00 unidades 35.719,07 0,00 35.719,07 21% 43.220,08"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000015.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/12/2020",
+  "total": 163938.59,
+  "neto": 135486.44,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000015",
+  "ref": null,
+  "concepto": "Brida de acople arenada 2,00 unidades 67.743,22 0,00 135.486,44 21% 163.938,59",
+  "items": [
+   "Brida de acople arenada 2,00 unidades 67.743,22 0,00 135.486,44 21% 163.938,59"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000022.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/01/2021",
+  "total": 50097.3,
+  "neto": 41402.73,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000022",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 8,00 unidades 5.175,34 0,00 41.402,73 21% 50.097,30",
+  "items": [
+   "Carcasa de turbina arenada 8,00 unidades 5.175,34 0,00 41.402,73 21% 50.097,30"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000023.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/02/2021",
+  "total": 45467.35,
+  "neto": 37576.32,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000023",
+  "ref": null,
+  "concepto": "Brida de acople arenada 12,00 unidades 3.131,36 0,00 37.576,32 21% 45.467,35",
+  "items": [
+   "Brida de acople arenada 12,00 unidades 3.131,36 0,00 37.576,32 21% 45.467,35"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000024.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/03/2021",
+  "total": 47633.15,
+  "neto": 39366.24,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000024",
+  "ref": null,
+  "concepto": "Protección térmica arenada 1,00 unidades 39.366,24 0,00 39.366,24 21% 47.633,15",
+  "items": [
+   "Protección térmica arenada 1,00 unidades 39.366,24 0,00 39.366,24 21% 47.633,15"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000039.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/03/2021",
+  "total": 12410.83,
+  "neto": 10256.88,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000039",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 12,00 unidades 854,74 0,00 10.256,88 21% 12.410,83",
+  "items": [
+   "Carcasa de salida de gases arenada 12,00 unidades 854,74 0,00 10.256,88 21% 12.410,83"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000034.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/04/2021",
+  "total": 193912.64,
+  "neto": 160258.38,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000034",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 2,00 unidades 80.129,19 0,00 160.258,38 21% 193.912,64",
+  "items": [
+   "Carcasa de turbina arenada 2,00 unidades 80.129,19 0,00 160.258,38 21% 193.912,64"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000025.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/04/2021",
+  "total": 52335.01,
+  "neto": 43252.07,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000025",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 2,00 unidades 21.626,03 0,00 43.252,07 21% 52.335,01",
+  "items": [
+   "Base de anclaje arenada 2,00 unidades 21.626,03 0,00 43.252,07 21% 52.335,01"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000026.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/05/2021",
+  "total": 50817.4,
+  "neto": 41997.85,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000026",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 2,00 unidades 20.998,92 0,00 41.997,85 21% 50.817,40",
+  "items": [
+   "Carcasa de salida de gases arenada 2,00 unidades 20.998,92 0,00 41.997,85 21% 50.817,40"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000037.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/05/2021",
+  "total": 17345.64,
+  "neto": 14335.24,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000037",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 1,00 unidades 14.335,24 0,00 14.335,24 21% 17.345,64",
+  "items": [
+   "Carcasa de salida de gases arenada 1,00 unidades 14.335,24 0,00 14.335,24 21% 17.345,64"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000035.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/06/2021",
+  "total": 202185.89,
+  "neto": 167095.78,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000035",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 6,00 unidades 27.849,30 0,00 167.095,78 21% 202.185,89",
+  "items": [
+   "Carcasa de turbina arenada 6,00 unidades 27.849,30 0,00 167.095,78 21% 202.185,89"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000027.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/06/2021",
+  "total": 53494.11,
+  "neto": 44210.01,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000027",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 6,00 unidades 7.368,34 0,00 44.210,01 21% 53.494,11",
+  "items": [
+   "Anillo de tobera arenado 6,00 unidades 7.368,34 0,00 44.210,01 21% 53.494,11"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000041.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/07/2021",
+  "total": 10979.13,
+  "neto": 9073.66,
+  "cliente": "CLIENTE EPSILON S.A.",
+  "cuit_cli": "30711111159",
+  "pv": "00001",
+  "nro": "00000041",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 4,00 unidades 2.268,41 0,00 9.073,66 21% 10.979,13",
+  "items": [
+   "Difusor de gases arenado 4,00 unidades 2.268,41 0,00 9.073,66 21% 10.979,13"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000028.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/07/2021",
+  "total": 50865.76,
+  "neto": 42037.82,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000028",
+  "ref": null,
+  "concepto": "Protección térmica arenada 3,00 unidades 14.012,61 0,00 42.037,82 21% 50.865,76",
+  "items": [
+   "Protección térmica arenada 3,00 unidades 14.012,61 0,00 42.037,82 21% 50.865,76"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000029.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/08/2021",
+  "total": 55624.5,
+  "neto": 45970.66,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000029",
+  "ref": null,
+  "concepto": "Brida de acople arenada 3,00 unidades 15.323,55 0,00 45.970,66 21% 55.624,50",
+  "items": [
+   "Brida de acople arenada 3,00 unidades 15.323,55 0,00 45.970,66 21% 55.624,50"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000030.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/09/2021",
+  "total": 63990.73,
+  "neto": 52884.9,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000030",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 4,00 unidades 13.221,23 0,00 52.884,90 21% 63.990,73",
+  "items": [
+   "Carcasa de turbina arenada 4,00 unidades 13.221,23 0,00 52.884,90 21% 63.990,73"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000040.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/09/2021",
+  "total": 12678.37,
+  "neto": 10477.99,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000040",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 6,00 unidades 1.746,33 0,00 10.477,99 21% 12.678,37",
+  "items": [
+   "Anillo de tobera arenado 6,00 unidades 1.746,33 0,00 10.477,99 21% 12.678,37"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000031.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/10/2021",
+  "total": 69440.2,
+  "neto": 57388.6,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000031",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 8,00 unidades 7.173,57 0,00 57.388,60 21% 69.440,20",
+  "items": [
+   "Carcasa de entrada de gases arenada 8,00 unidades 7.173,57 0,00 57.388,60 21% 69.440,20"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000042.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/10/2021",
+  "total": 8306.87,
+  "neto": 6865.18,
+  "cliente": "CLIENTE ZETA S.A.",
+  "cuit_cli": "30711111167",
+  "pv": "00001",
+  "nro": "00000042",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 6,00 unidades 1.144,20 0,00 6.865,18 21% 8.306,87",
+  "items": [
+   "Base de anclaje arenada 6,00 unidades 1.144,20 0,00 6.865,18 21% 8.306,87"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000038.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/11/2021",
+  "total": 20971.39,
+  "neto": 17331.73,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000038",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 2,00 unidades 8.665,86 0,00 17.331,73 21% 20.971,39",
+  "items": [
+   "Anillo de tobera arenado 2,00 unidades 8.665,86 0,00 17.331,73 21% 20.971,39"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000032.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/11/2021",
+  "total": 59391.89,
+  "neto": 49084.21,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000032",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 3,00 unidades 16.361,40 0,00 49.084,21 21% 59.391,89",
+  "items": [
+   "Base de anclaje arenada 3,00 unidades 16.361,40 0,00 49.084,21 21% 59.391,89"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000036.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/12/2021",
+  "total": 215493.17,
+  "neto": 178093.53,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000036",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 2,00 unidades 89.046,76 0,00 178.093,53 21% 215.493,17",
+  "items": [
+   "Carcasa de salida de gases arenada 2,00 unidades 89.046,76 0,00 178.093,53 21% 215.493,17"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000033.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/12/2021",
+  "total": 69564.97,
+  "neto": 57491.71,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000033",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 6,00 unidades 9.581,95 0,00 57.491,71 21% 69.564,97",
+  "items": [
+   "Carcasa de salida de gases arenada 6,00 unidades 9.581,95 0,00 57.491,71 21% 69.564,97"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000043.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/01/2022",
+  "total": 66773.08,
+  "neto": 55184.36,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000043",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 3,00 unidades 18.394,79 0,00 55.184,36 21% 66.773,08",
+  "items": [
+   "Base de anclaje arenada 3,00 unidades 18.394,79 0,00 55.184,36 21% 66.773,08"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000044.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/02/2022",
+  "total": 78986.18,
+  "neto": 65277.83,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000044",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 6,00 unidades 10.879,64 0,00 65.277,83 21% 78.986,18",
+  "items": [
+   "Carcasa de salida de gases arenada 6,00 unidades 10.879,64 0,00 65.277,83 21% 78.986,18"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000060.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/03/2022",
+  "total": 20063.19,
+  "neto": 16581.15,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000060",
+  "ref": null,
+  "concepto": "Protección térmica arenada 4,00 unidades 4.145,29 0,00 16.581,15 21% 20.063,19",
+  "items": [
+   "Protección térmica arenada 4,00 unidades 4.145,29 0,00 16.581,15 21% 20.063,19"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000045.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/03/2022",
+  "total": 74518.53,
+  "neto": 61585.56,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000045",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 3,00 unidades 20.528,52 0,00 61.585,56 21% 74.518,53",
+  "items": [
+   "Base de anclaje arenada 3,00 unidades 20.528,52 0,00 61.585,56 21% 74.518,53"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000046.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/04/2022",
+  "total": 93456.65,
+  "neto": 77236.9,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000046",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 6,00 unidades 12.872,82 0,00 77.236,90 21% 93.456,65",
+  "items": [
+   "Carcasa de entrada de gases arenada 6,00 unidades 12.872,82 0,00 77.236,90 21% 93.456,65"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000055.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/04/2022",
+  "total": 256538.65,
+  "neto": 212015.41,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000055",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 12,00 unidades 17.667,95 0,00 212.015,41 21% 256.538,65",
+  "items": [
+   "Carcasa de salida de gases arenada 12,00 unidades 17.667,95 0,00 212.015,41 21% 256.538,65"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000047.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/05/2022",
+  "total": 99538.42,
+  "neto": 82263.16,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000047",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 2,00 unidades 41.131,58 0,00 82.263,16 21% 99.538,42",
+  "items": [
+   "Carcasa de entrada de gases arenada 2,00 unidades 41.131,58 0,00 82.263,16 21% 99.538,42"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000058.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/05/2022",
+  "total": 22044.45,
+  "neto": 18218.55,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000058",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 12,00 unidades 1.518,21 0,00 18.218,55 21% 22.044,45",
+  "items": [
+   "Carcasa de entrada de gases arenada 12,00 unidades 1.518,21 0,00 18.218,55 21% 22.044,45"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000048.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/06/2022",
+  "total": 84739.21,
+  "neto": 70032.4,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000048",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 8,00 unidades 8.754,05 0,00 70.032,40 21% 84.739,21",
+  "items": [
+   "Carcasa de salida de gases arenada 8,00 unidades 8.754,05 0,00 70.032,40 21% 84.739,21"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000056.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/06/2022",
+  "total": 359973.27,
+  "neto": 297498.57,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000056",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 4,00 unidades 74.374,64 0,00 297.498,57 21% 359.973,27",
+  "items": [
+   "Anillo de tobera arenado 4,00 unidades 74.374,64 0,00 297.498,57 21% 359.973,27"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000136.pdf",
+  "emisor": "20111111112",
+  "tipo": "NC",
+  "letra": "A",
+  "fecha": "14/06/2022",
+  "total": 164560.0,
+  "neto": 136000.0,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000136",
+  "ref": "00001-00000042",
+  "concepto": "Nota de crédito por devolución de material",
+  "items": [
+   "Nota de crédito por devolución de material"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000049.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/07/2022",
+  "total": 98341.64,
+  "neto": 81274.08,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000049",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 8,00 unidades 10.159,26 0,00 81.274,08 21% 98.341,64",
+  "items": [
+   "Base de anclaje arenada 8,00 unidades 10.159,26 0,00 81.274,08 21% 98.341,64"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000062.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/07/2022",
+  "total": 17789.1,
+  "neto": 14701.74,
+  "cliente": "CLIENTE EPSILON S.A.",
+  "cuit_cli": "30711111159",
+  "pv": "00001",
+  "nro": "00000062",
+  "ref": null,
+  "concepto": "Brida de acople arenada 3,00 unidades 4.900,58 0,00 14.701,74 21% 17.789,10",
+  "items": [
+   "Brida de acople arenada 3,00 unidades 4.900,58 0,00 14.701,74 21% 17.789,10"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000050.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/08/2022",
+  "total": 106898.13,
+  "neto": 88345.56,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000050",
+  "ref": null,
+  "concepto": "Protección térmica arenada 12,00 unidades 7.362,13 0,00 88.345,56 21% 106.898,13",
+  "items": [
+   "Protección térmica arenada 12,00 unidades 7.362,13 0,00 88.345,56 21% 106.898,13"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000051.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/09/2022",
+  "total": 101828.85,
+  "neto": 84156.07,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000051",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 8,00 unidades 10.519,51 0,00 84.156,07 21% 101.828,85",
+  "items": [
+   "Carcasa de turbina arenada 8,00 unidades 10.519,51 0,00 84.156,07 21% 101.828,85"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000061.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/09/2022",
+  "total": 26184.38,
+  "neto": 21639.98,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000061",
+  "ref": null,
+  "concepto": "Protección térmica arenada 3,00 unidades 7.213,33 0,00 21.639,98 21% 26.184,38",
+  "items": [
+   "Protección térmica arenada 3,00 unidades 7.213,33 0,00 21.639,98 21% 26.184,38"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000052.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/10/2022",
+  "total": 122473.52,
+  "neto": 101217.79,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000052",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 6,00 unidades 16.869,63 0,00 101.217,79 21% 122.473,52",
+  "items": [
+   "Difusor de gases arenado 6,00 unidades 16.869,63 0,00 101.217,79 21% 122.473,52"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000053.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/11/2022",
+  "total": 122057.1,
+  "neto": 100873.64,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000053",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 6,00 unidades 16.812,27 0,00 100.873,64 21% 122.057,10",
+  "items": [
+   "Anillo de tobera arenado 6,00 unidades 16.812,27 0,00 100.873,64 21% 122.057,10"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000059.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/11/2022",
+  "total": 37660.96,
+  "neto": 31124.76,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000059",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 1,00 unidades 31.124,76 0,00 31.124,76 21% 37.660,96",
+  "items": [
+   "Carcasa de salida de gases arenada 1,00 unidades 31.124,76 0,00 31.124,76 21% 37.660,96"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000057.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/12/2022",
+  "total": 436332.8,
+  "neto": 360605.62,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000057",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 12,00 unidades 30.050,47 0,00 360.605,62 21% 436.332,80",
+  "items": [
+   "Carcasa de turbina arenada 12,00 unidades 30.050,47 0,00 360.605,62 21% 436.332,80"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000054.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/12/2022",
+  "total": 155029.45,
+  "neto": 128123.51,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000054",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 6,00 unidades 21.353,92 0,00 128.123,51 21% 155.029,45",
+  "items": [
+   "Base de anclaje arenada 6,00 unidades 21.353,92 0,00 128.123,51 21% 155.029,45"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000063.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/01/2023",
+  "total": 159453.54,
+  "neto": 131779.79,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000063",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 1,00 unidades 131.779,79 0,00 131.779,79 21% 159.453,54",
+  "items": [
+   "Difusor de gases arenado 1,00 unidades 131.779,79 0,00 131.779,79 21% 159.453,54"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000064.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/02/2023",
+  "total": 132319.17,
+  "neto": 109354.69,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000064",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 4,00 unidades 27.338,67 0,00 109.354,69 21% 132.319,17",
+  "items": [
+   "Anillo de tobera arenado 4,00 unidades 27.338,67 0,00 109.354,69 21% 132.319,17"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000080.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/03/2023",
+  "total": 39448.49,
+  "neto": 32602.06,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000080",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 3,00 unidades 10.867,35 0,00 32.602,06 21% 39.448,49",
+  "items": [
+   "Base de anclaje arenada 3,00 unidades 10.867,35 0,00 32.602,06 21% 39.448,49"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000065.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/03/2023",
+  "total": 172036.66,
+  "neto": 142179.06,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000065",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 1,00 unidades 142.179,06 0,00 142.179,06 21% 172.036,66",
+  "items": [
+   "Carcasa de entrada de gases arenada 1,00 unidades 142.179,06 0,00 142.179,06 21% 172.036,66"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000066.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/04/2023",
+  "total": 183230.96,
+  "neto": 151430.55,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000066",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 1,00 unidades 151.430,55 0,00 151.430,55 21% 183.230,96",
+  "items": [
+   "Carcasa de turbina arenada 1,00 unidades 151.430,55 0,00 151.430,55 21% 183.230,96"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000075.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/04/2023",
+  "total": 513823.43,
+  "neto": 424647.46,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000075",
+  "ref": null,
+  "concepto": "Brida de acople arenada 3,00 unidades 141.549,15 0,00 424.647,46 21% 513.823,43",
+  "items": [
+   "Brida de acople arenada 3,00 unidades 141.549,15 0,00 424.647,46 21% 513.823,43"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000078.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/05/2023",
+  "total": 52338.43,
+  "neto": 43254.9,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000078",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 4,00 unidades 10.813,73 0,00 43.254,90 21% 52.338,43",
+  "items": [
+   "Base de anclaje arenada 4,00 unidades 10.813,73 0,00 43.254,90 21% 52.338,43"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000067.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/05/2023",
+  "total": 178991.0,
+  "neto": 147926.45,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000067",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 8,00 unidades 18.490,81 0,00 147.926,45 21% 178.991,00",
+  "items": [
+   "Carcasa de salida de gases arenada 8,00 unidades 18.490,81 0,00 147.926,45 21% 178.991,00"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000076.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/06/2023",
+  "total": 731653.46,
+  "neto": 604672.28,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000076",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 4,00 unidades 151.168,07 0,00 604.672,28 21% 731.653,46",
+  "items": [
+   "Carcasa de entrada de gases arenada 4,00 unidades 151.168,07 0,00 604.672,28 21% 731.653,46"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000068.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/06/2023",
+  "total": 222193.96,
+  "neto": 183631.37,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000068",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 6,00 unidades 30.605,23 0,00 183.631,37 21% 222.193,96",
+  "items": [
+   "Anillo de tobera arenado 6,00 unidades 30.605,23 0,00 183.631,37 21% 222.193,96"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000069.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/07/2023",
+  "total": 204778.14,
+  "neto": 169238.13,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000069",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 4,00 unidades 42.309,53 0,00 169.238,13 21% 204.778,14",
+  "items": [
+   "Anillo de tobera arenado 4,00 unidades 42.309,53 0,00 169.238,13 21% 204.778,14"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000070.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/08/2023",
+  "total": 264196.01,
+  "neto": 218343.81,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000070",
+  "ref": null,
+  "concepto": "Protección térmica arenada 12,00 unidades 18.195,32 0,00 218.343,81 21% 264.196,01",
+  "items": [
+   "Protección térmica arenada 12,00 unidades 18.195,32 0,00 218.343,81 21% 264.196,01"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000071.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/09/2023",
+  "total": 302524.69,
+  "neto": 250020.4,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000071",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 2,00 unidades 125.010,20 0,00 250.020,40 21% 302.524,69",
+  "items": [
+   "Carcasa de entrada de gases arenada 2,00 unidades 125.010,20 0,00 250.020,40 21% 302.524,69"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000081.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/09/2023",
+  "total": 61520.82,
+  "neto": 50843.65,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000081",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 6,00 unidades 8.473,94 0,00 50.843,65 21% 61.520,82",
+  "items": [
+   "Difusor de gases arenado 6,00 unidades 8.473,94 0,00 50.843,65 21% 61.520,82"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000072.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/10/2023",
+  "total": 332398.46,
+  "neto": 274709.47,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000072",
+  "ref": null,
+  "concepto": "Protección térmica arenada 2,00 unidades 137.354,73 0,00 274.709,47 21% 332.398,46",
+  "items": [
+   "Protección térmica arenada 2,00 unidades 137.354,73 0,00 274.709,47 21% 332.398,46"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000073.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/11/2023",
+  "total": 361873.28,
+  "neto": 299068.83,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000073",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 3,00 unidades 99.689,61 0,00 299.068,83 21% 361.873,28",
+  "items": [
+   "Difusor de gases arenado 3,00 unidades 99.689,61 0,00 299.068,83 21% 361.873,28"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000079.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/11/2023",
+  "total": 92714.8,
+  "neto": 76623.8,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000079",
+  "ref": null,
+  "concepto": "Protección térmica arenada 4,00 unidades 19.155,95 0,00 76.623,80 21% 92.714,80",
+  "items": [
+   "Protección térmica arenada 4,00 unidades 19.155,95 0,00 76.623,80 21% 92.714,80"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000074.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/12/2023",
+  "total": 447237.05,
+  "neto": 369617.4,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000074",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 12,00 unidades 30.801,45 0,00 369.617,40 21% 447.237,05",
+  "items": [
+   "Difusor de gases arenado 12,00 unidades 30.801,45 0,00 369.617,40 21% 447.237,05"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000077.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/12/2023",
+  "total": 1212180.33,
+  "neto": 1001801.93,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000077",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 12,00 unidades 83.483,49 0,00 1.001.801,93 21% 1.212.180,33",
+  "items": [
+   "Carcasa de turbina arenada 12,00 unidades 83.483,49 0,00 1.001.801,93 21% 1.212.180,33"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000082.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/01/2024",
+  "total": 485644.51,
+  "neto": 401359.1,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000082",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 6,00 unidades 66.893,18 0,00 401.359,10 21% 485.644,51",
+  "items": [
+   "Carcasa de turbina arenada 6,00 unidades 66.893,18 0,00 401.359,10 21% 485.644,51"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000083.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/02/2024",
+  "total": 584374.58,
+  "neto": 482954.2,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000083",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 8,00 unidades 60.369,28 0,00 482.954,20 21% 584.374,58",
+  "items": [
+   "Anillo de tobera arenado 8,00 unidades 60.369,28 0,00 482.954,20 21% 584.374,58"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000084.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/03/2024",
+  "total": 702127.32,
+  "neto": 580270.51,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000084",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 6,00 unidades 96.711,75 0,00 580.270,51 21% 702.127,32",
+  "items": [
+   "Anillo de tobera arenado 6,00 unidades 96.711,75 0,00 580.270,51 21% 702.127,32"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000099.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/03/2024",
+  "total": 128466.4,
+  "neto": 106170.58,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000099",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 4,00 unidades 26.542,65 0,00 106.170,58 21% 128.466,40",
+  "items": [
+   "Carcasa de entrada de gases arenada 4,00 unidades 26.542,65 0,00 106.170,58 21% 128.466,40"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000094.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/04/2024",
+  "total": 2189976.5,
+  "neto": 1809897.93,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000094",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 4,00 unidades 452.474,48 0,00 1.809.897,93 21% 2.189.976,50",
+  "items": [
+   "Carcasa de turbina arenada 4,00 unidades 452.474,48 0,00 1.809.897,93 21% 2.189.976,50"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000085.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/04/2024",
+  "total": 788569.06,
+  "neto": 651709.97,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000085",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 1,00 unidades 651.709,97 0,00 651.709,97 21% 788.569,06",
+  "items": [
+   "Base de anclaje arenada 1,00 unidades 651.709,97 0,00 651.709,97 21% 788.569,06"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000097.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/05/2024",
+  "total": 172482.85,
+  "neto": 142547.81,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000097",
+  "ref": null,
+  "concepto": "Protección térmica arenada 2,00 unidades 71.273,90 0,00 142.547,81 21% 172.482,85",
+  "items": [
+   "Protección térmica arenada 2,00 unidades 71.273,90 0,00 142.547,81 21% 172.482,85"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000086.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/05/2024",
+  "total": 774965.02,
+  "neto": 640466.96,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000086",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 2,00 unidades 320.233,48 0,00 640.466,96 21% 774.965,02",
+  "items": [
+   "Carcasa de turbina arenada 2,00 unidades 320.233,48 0,00 640.466,96 21% 774.965,02"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000087.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/06/2024",
+  "total": 809093.14,
+  "neto": 668672.02,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000087",
+  "ref": null,
+  "concepto": "Protección térmica arenada 8,00 unidades 83.584,00 0,00 668.672,02 21% 809.093,14",
+  "items": [
+   "Protección térmica arenada 8,00 unidades 83.584,00 0,00 668.672,02 21% 809.093,14"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000095.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/06/2024",
+  "total": 2815726.57,
+  "neto": 2327046.75,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000095",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 1,00 unidades 2.327.046,75 0,00 2.327.046,75 21% 2.815.726,57",
+  "items": [
+   "Carcasa de turbina arenada 1,00 unidades 2.327.046,75 0,00 2.327.046,75 21% 2.815.726,57"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000088.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/07/2024",
+  "total": 744009.1,
+  "neto": 614883.55,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000088",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 6,00 unidades 102.480,59 0,00 614.883,55 21% 744.009,10",
+  "items": [
+   "Difusor de gases arenado 6,00 unidades 102.480,59 0,00 614.883,55 21% 744.009,10"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000089.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/08/2024",
+  "total": 840328.82,
+  "neto": 694486.63,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000089",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 12,00 unidades 57.873,89 0,00 694.486,63 21% 840.328,82",
+  "items": [
+   "Carcasa de entrada de gases arenada 12,00 unidades 57.873,89 0,00 694.486,63 21% 840.328,82"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000090.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/09/2024",
+  "total": 737795.84,
+  "neto": 609748.63,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000090",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 3,00 unidades 203.249,54 0,00 609.748,63 21% 737.795,84",
+  "items": [
+   "Base de anclaje arenada 3,00 unidades 203.249,54 0,00 609.748,63 21% 737.795,84"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000100.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/09/2024",
+  "total": 162561.9,
+  "neto": 134348.68,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000100",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 4,00 unidades 33.587,17 0,00 134.348,68 21% 162.561,90",
+  "items": [
+   "Carcasa de entrada de gases arenada 4,00 unidades 33.587,17 0,00 134.348,68 21% 162.561,90"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000091.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/10/2024",
+  "total": 993926.48,
+  "neto": 821426.84,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000091",
+  "ref": null,
+  "concepto": "Protección térmica arenada 12,00 unidades 68.452,24 0,00 821.426,84 21% 993.926,48",
+  "items": [
+   "Protección térmica arenada 12,00 unidades 68.452,24 0,00 821.426,84 21% 993.926,48"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000098.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/11/2024",
+  "total": 284109.89,
+  "neto": 234801.56,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000098",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 2,00 unidades 117.400,78 0,00 234.801,56 21% 284.109,89",
+  "items": [
+   "Base de anclaje arenada 2,00 unidades 117.400,78 0,00 234.801,56 21% 284.109,89"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000092.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/11/2024",
+  "total": 1011729.32,
+  "neto": 836139.93,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000092",
+  "ref": null,
+  "concepto": "Brida de acople arenada 3,00 unidades 278.713,31 0,00 836.139,93 21% 1.011.729,32",
+  "items": [
+   "Brida de acople arenada 3,00 unidades 278.713,31 0,00 836.139,93 21% 1.011.729,32"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000093.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/12/2024",
+  "total": 843391.42,
+  "neto": 697017.7,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000093",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 4,00 unidades 174.254,42 0,00 697.017,70 21% 843.391,42",
+  "items": [
+   "Difusor de gases arenado 4,00 unidades 174.254,42 0,00 697.017,70 21% 843.391,42"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000096.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/12/2024",
+  "total": 3412746.66,
+  "neto": 2820451.79,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000096",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 3,00 unidades 940.150,60 0,00 2.820.451,79 21% 3.412.746,66",
+  "items": [
+   "Difusor de gases arenado 3,00 unidades 940.150,60 0,00 2.820.451,79 21% 3.412.746,66"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000101.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/01/2025",
+  "total": 931580.07,
+  "neto": 769900.88,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000101",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 8,00 unidades 96.237,61 0,00 769.900,88 21% 931.580,07",
+  "items": [
+   "Carcasa de entrada de gases arenada 8,00 unidades 96.237,61 0,00 769.900,88 21% 931.580,07"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000102.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/02/2025",
+  "total": 1028620.68,
+  "neto": 850099.74,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000102",
+  "ref": null,
+  "concepto": "Brida de acople arenada 12,00 unidades 70.841,65 0,00 850.099,74 21% 1.028.620,68",
+  "items": [
+   "Brida de acople arenada 12,00 unidades 70.841,65 0,00 850.099,74 21% 1.028.620,68"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000118.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/03/2025",
+  "total": 193284.43,
+  "neto": 159739.2,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000118",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 8,00 unidades 19.967,40 0,00 159.739,20 21% 193.284,43",
+  "items": [
+   "Carcasa de entrada de gases arenada 8,00 unidades 19.967,40 0,00 159.739,20 21% 193.284,43"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000103.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/03/2025",
+  "total": 868407.54,
+  "neto": 717692.18,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000103",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 12,00 unidades 59.807,68 0,00 717.692,18 21% 868.407,54",
+  "items": [
+   "Carcasa de salida de gases arenada 12,00 unidades 59.807,68 0,00 717.692,18 21% 868.407,54"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000113.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/04/2025",
+  "total": 3811896.41,
+  "neto": 3150327.61,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000113",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 2,00 unidades 1.575.163,80 0,00 3.150.327,61 21% 3.811.896,41",
+  "items": [
+   "Carcasa de turbina arenada 2,00 unidades 1.575.163,80 0,00 3.150.327,61 21% 3.811.896,41"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000104.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/04/2025",
+  "total": 911286.22,
+  "neto": 753129.11,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000104",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 3,00 unidades 251.043,04 0,00 753.129,11 21% 911.286,22",
+  "items": [
+   "Carcasa de salida de gases arenada 3,00 unidades 251.043,04 0,00 753.129,11 21% 911.286,22"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000137.pdf",
+  "emisor": "20111111112",
+  "tipo": "NC",
+  "letra": "A",
+  "fecha": "14/04/2025",
+  "total": 3097600.0,
+  "neto": 2560000.0,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000137",
+  "ref": "00001-00000042",
+  "concepto": "Nota de crédito por devolución de material",
+  "items": [
+   "Nota de crédito por devolución de material"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000116.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/05/2025",
+  "total": 320101.4,
+  "neto": 264546.61,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000116",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 1,00 unidades 264.546,61 0,00 264.546,61 21% 320.101,40",
+  "items": [
+   "Carcasa de salida de gases arenada 1,00 unidades 264.546,61 0,00 264.546,61 21% 320.101,40"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000105.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/05/2025",
+  "total": 1170869.05,
+  "neto": 967660.37,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000105",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 12,00 unidades 80.638,36 0,00 967.660,37 21% 1.170.869,05",
+  "items": [
+   "Carcasa de turbina arenada 12,00 unidades 80.638,36 0,00 967.660,37 21% 1.170.869,05"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000106.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/06/2025",
+  "total": 1086137.29,
+  "neto": 897634.12,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000106",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 8,00 unidades 112.204,26 0,00 897.634,12 21% 1.086.137,29",
+  "items": [
+   "Carcasa de turbina arenada 8,00 unidades 112.204,26 0,00 897.634,12 21% 1.086.137,29"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000114.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/06/2025",
+  "total": 3031965.48,
+  "neto": 2505756.6,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000114",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 6,00 unidades 417.626,10 0,00 2.505.756,60 21% 3.031.965,48",
+  "items": [
+   "Anillo de tobera arenado 6,00 unidades 417.626,10 0,00 2.505.756,60 21% 3.031.965,48"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000107.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/07/2025",
+  "total": 1222173.54,
+  "neto": 1010060.78,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000107",
+  "ref": null,
+  "concepto": "Brida de acople arenada 8,00 unidades 126.257,60 0,00 1.010.060,78 21% 1.222.173,54",
+  "items": [
+   "Brida de acople arenada 8,00 unidades 126.257,60 0,00 1.010.060,78 21% 1.222.173,54"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000108.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/08/2025",
+  "total": 1171088.78,
+  "neto": 967841.97,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000108",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 4,00 unidades 241.960,49 0,00 967.841,97 21% 1.171.088,78",
+  "items": [
+   "Carcasa de salida de gases arenada 4,00 unidades 241.960,49 0,00 967.841,97 21% 1.171.088,78"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000119.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/09/2025",
+  "total": 217750.51,
+  "neto": 179959.1,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000119",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 1,00 unidades 179.959,10 0,00 179.959,10 21% 217.750,51",
+  "items": [
+   "Carcasa de salida de gases arenada 1,00 unidades 179.959,10 0,00 179.959,10 21% 217.750,51"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000109.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "20/09/2025",
+  "total": 1115799.67,
+  "neto": 922148.49,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000109",
+  "ref": null,
+  "concepto": "Protección térmica arenada 12,00 unidades 76.845,71 0,00 922.148,49 21% 1.115.799,67",
+  "items": [
+   "Protección térmica arenada 12,00 unidades 76.845,71 0,00 922.148,49 21% 1.115.799,67"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000110.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/10/2025",
+  "total": 1058798.9,
+  "neto": 875040.41,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000110",
+  "ref": null,
+  "concepto": "Brida de acople arenada 6,00 unidades 145.840,07 0,00 875.040,41 21% 1.058.798,90",
+  "items": [
+   "Brida de acople arenada 6,00 unidades 145.840,07 0,00 875.040,41 21% 1.058.798,90"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000111.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/11/2025",
+  "total": 1015583.75,
+  "neto": 839325.41,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000111",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 8,00 unidades 104.915,68 0,00 839.325,41 21% 1.015.583,75",
+  "items": [
+   "Anillo de tobera arenado 8,00 unidades 104.915,68 0,00 839.325,41 21% 1.015.583,75"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000117.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/11/2025",
+  "total": 302243.91,
+  "neto": 249788.36,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000117",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 4,00 unidades 62.447,09 0,00 249.788,36 21% 302.243,91",
+  "items": [
+   "Base de anclaje arenada 4,00 unidades 62.447,09 0,00 249.788,36 21% 302.243,91"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000112.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/12/2025",
+  "total": 1198173.51,
+  "neto": 990226.04,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000112",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 3,00 unidades 330.075,35 0,00 990.226,04 21% 1.198.173,51",
+  "items": [
+   "Difusor de gases arenado 3,00 unidades 330.075,35 0,00 990.226,04 21% 1.198.173,51"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000115.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/12/2025",
+  "total": 9279685.34,
+  "neto": 7669161.44,
+  "cliente": "CLIENTE BETA S.R.L.",
+  "cuit_cli": "30711111124",
+  "pv": "00001",
+  "nro": "00000115",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 8,00 unidades 958.645,18 0,00 7.669.161,44 21% 9.279.685,34",
+  "items": [
+   "Difusor de gases arenado 8,00 unidades 958.645,18 0,00 7.669.161,44 21% 9.279.685,34"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000120.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/01/2026",
+  "total": 1207529.14,
+  "neto": 997957.97,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000120",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 3,00 unidades 332.652,66 0,00 997.957,97 21% 1.207.529,14",
+  "items": [
+   "Anillo de tobera arenado 3,00 unidades 332.652,66 0,00 997.957,97 21% 1.207.529,14"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000121.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "08/02/2026",
+  "total": 1115454.44,
+  "neto": 921863.17,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000121",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 4,00 unidades 230.465,79 0,00 921.863,17 21% 1.115.454,44",
+  "items": [
+   "Anillo de tobera arenado 4,00 unidades 230.465,79 0,00 921.863,17 21% 1.115.454,44"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000122.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/03/2026",
+  "total": 1384142.25,
+  "neto": 1143919.21,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000122",
+  "ref": null,
+  "concepto": "Protección térmica arenada 8,00 unidades 142.989,90 0,00 1.143.919,21 21% 1.384.142,25",
+  "items": [
+   "Protección térmica arenada 8,00 unidades 142.989,90 0,00 1.143.919,21 21% 1.384.142,25"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000134.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/03/2026",
+  "total": 268456.68,
+  "neto": 221865.02,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000134",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 2,00 unidades 110.932,51 0,00 221.865,02 21% 268.456,68",
+  "items": [
+   "Carcasa de entrada de gases arenada 2,00 unidades 110.932,51 0,00 221.865,02 21% 268.456,68"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000123.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/04/2026",
+  "total": 1332081.08,
+  "neto": 1100893.45,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000123",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 12,00 unidades 91.741,12 0,00 1.100.893,45 21% 1.332.081,08",
+  "items": [
+   "Carcasa de salida de gases arenada 12,00 unidades 91.741,12 0,00 1.100.893,45 21% 1.332.081,08"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000132.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/05/2026",
+  "total": 392071.03,
+  "neto": 324025.64,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000132",
+  "ref": null,
+  "concepto": "Protección térmica arenada 8,00 unidades 40.503,21 0,00 324.025,64 21% 392.071,03",
+  "items": [
+   "Protección térmica arenada 8,00 unidades 40.503,21 0,00 324.025,64 21% 392.071,03"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000124.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "09/05/2026",
+  "total": 1498855.99,
+  "neto": 1238723.96,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000124",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 8,00 unidades 154.840,49 0,00 1.238.723,96 21% 1.498.855,99",
+  "items": [
+   "Carcasa de turbina arenada 8,00 unidades 154.840,49 0,00 1.238.723,96 21% 1.498.855,99"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000125.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/06/2026",
+  "total": 1580898.27,
+  "neto": 1306527.5,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000125",
+  "ref": null,
+  "concepto": "Protección térmica arenada 4,00 unidades 326.631,88 0,00 1.306.527,50 21% 1.580.898,27",
+  "items": [
+   "Protección térmica arenada 4,00 unidades 326.631,88 0,00 1.306.527,50 21% 1.580.898,27"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000126.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/07/2026",
+  "total": 1264107.4,
+  "neto": 1044716.86,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000126",
+  "ref": null,
+  "concepto": "Anillo de tobera arenado 8,00 unidades 130.589,61 0,00 1.044.716,86 21% 1.264.107,40",
+  "items": [
+   "Anillo de tobera arenado 8,00 unidades 130.589,61 0,00 1.044.716,86 21% 1.264.107,40"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000127.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/08/2026",
+  "total": 1638840.13,
+  "neto": 1354413.33,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000127",
+  "ref": null,
+  "concepto": "Protección térmica arenada 12,00 unidades 112.867,78 0,00 1.354.413,33 21% 1.638.840,13",
+  "items": [
+   "Protección térmica arenada 12,00 unidades 112.867,78 0,00 1.354.413,33 21% 1.638.840,13"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000128.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/09/2026",
+  "total": 1299123.23,
+  "neto": 1073655.56,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000128",
+  "ref": null,
+  "concepto": "Carcasa de entrada de gases arenada 4,00 unidades 268.413,89 0,00 1.073.655,56 21% 1.299.123,23",
+  "items": [
+   "Carcasa de entrada de gases arenada 4,00 unidades 268.413,89 0,00 1.073.655,56 21% 1.299.123,23"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000135.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "14/09/2026",
+  "total": 380486.85,
+  "neto": 314451.94,
+  "cliente": "CLIENTE DELTA S.R.L.",
+  "cuit_cli": "30711111140",
+  "pv": "00001",
+  "nro": "00000135",
+  "ref": null,
+  "concepto": "Difusor de gases arenado 6,00 unidades 52.408,66 0,00 314.451,94 21% 380.486,85",
+  "items": [
+   "Difusor de gases arenado 6,00 unidades 52.408,66 0,00 314.451,94 21% 380.486,85"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000129.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "12/10/2026",
+  "total": 1614632.53,
+  "neto": 1334407.05,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000129",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 6,00 unidades 222.401,18 0,00 1.334.407,05 21% 1.614.632,53",
+  "items": [
+   "Carcasa de turbina arenada 6,00 unidades 222.401,18 0,00 1.334.407,05 21% 1.614.632,53"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000130.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "05/11/2026",
+  "total": 1674724.18,
+  "neto": 1384069.57,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000130",
+  "ref": null,
+  "concepto": "Carcasa de turbina arenada 2,00 unidades 692.034,79 0,00 1.384.069,57 21% 1.674.724,18",
+  "items": [
+   "Carcasa de turbina arenada 2,00 unidades 692.034,79 0,00 1.384.069,57 21% 1.674.724,18"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000133.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "27/11/2026",
+  "total": 382092.93,
+  "neto": 315779.28,
+  "cliente": "CLIENTE GAMMA S.A.",
+  "cuit_cli": "30711111132",
+  "pv": "00001",
+  "nro": "00000133",
+  "ref": null,
+  "concepto": "Carcasa de salida de gases arenada 3,00 unidades 105.259,76 0,00 315.779,28 21% 382.092,93",
+  "items": [
+   "Carcasa de salida de gases arenada 3,00 unidades 105.259,76 0,00 315.779,28 21% 382.092,93"
+  ]
+ },
+ {
+  "file": "20111111112_001_00001_00000131.pdf",
+  "emisor": "20111111112",
+  "tipo": "FAC",
+  "letra": "A",
+  "fecha": "02/12/2026",
+  "total": 1490279.5,
+  "neto": 1231635.95,
+  "cliente": "CLIENTE ALFA S.A.",
+  "cuit_cli": "30711111116",
+  "pv": "00001",
+  "nro": "00000131",
+  "ref": null,
+  "concepto": "Base de anclaje arenada 12,00 unidades 102.636,33 0,00 1.231.635,95 21% 1.490.279,50",
+  "items": [
+   "Base de anclaje arenada 12,00 unidades 102.636,33 0,00 1.231.635,95 21% 1.490.279,50"
+  ]
+ }
+]

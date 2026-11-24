@@ -1,0 +1,19 @@
+# Datos reales: nunca
+/datos.json
+/comprobantes/
+*.pdf
+/out/
+*.bak-*
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
