@@ -33,6 +33,7 @@ CENT = Decimal("0.01")
 
 
 def cargar_serie(ruta, columna):
+    """Lee una serie mensual (`ym`, valor) y la devuelve ordenada por mes."""
     serie = {}
     with open(ruta, newline="", encoding="utf-8") as fh:
         for fila in csv.DictReader(fh):
@@ -43,11 +44,17 @@ def cargar_serie(ruta, columna):
 
 
 def ym_de(fecha):
+    """`dd/mm/aaaa` → `aaaa-mm`. El día no se usa: la serie es mensual."""
     dia, mes, anio = fecha.split("/")
     return f"{anio}-{mes}"
 
 
 def redondear(valor):
+    """Redondeo comercial (0,005 sube), no el de Python por defecto.
+
+    `round()` usa banca (redondea al par), así que dos centavos pueden caer
+    para lados distintos según el dígito anterior y el total no cierra.
+    """
     return valor.quantize(CENT, rounding=ROUND_HALF_UP)
 
 
@@ -89,6 +96,8 @@ def normalizar(datos, ipc, ccl, ipc_ancla_ym=None, ccl_ancla=None):
     for r in datos:
         ym = ym_de(r["fecha"])
         total = Decimal(str(r["total"]))
+        # El signo se aplica antes de deflactar y de dividir por el CCL: si se
+        # restara al final, los totales quedarían bien pero cada fila mal.
         if r["tipo"] == "NC":
             total = -total
         pesos_hoy = total * ancla_ipc / ipc_de(ym)
@@ -108,6 +117,8 @@ def normalizar(datos, ipc, ccl, ipc_ancla_ym=None, ccl_ancla=None):
             "usd_epoca": redondear(total / ccl_de(ym)),
             "usd_hoy": redondear(pesos_hoy / ancla_ccl),
         })
+    # Orden explícito por mes y número: sin esto el CSV cambia de orden entre
+    # corridas y deja de ser reproducible byte a byte.
     filas.sort(key=lambda f: (f["ym"], f["nro"]))
 
     info = {
@@ -121,6 +132,7 @@ def normalizar(datos, ipc, ccl, ipc_ancla_ym=None, ccl_ancla=None):
 
 
 def escribir_csv(filas, salida, respaldo=True):
+    """Escribe el CSV y devuelve su SHA-256. El respaldo va antes de pisar el archivo."""
     salida = Path(salida)
     if salida.exists() and respaldo:
         sello = datetime.now().strftime("%Y%m%dT%H%M%S")

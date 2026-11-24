@@ -33,6 +33,7 @@ PCT = "0.0%"
 
 
 def leer_csv(ruta):
+    """CSV normalizado → filas con los importes ya en float (openpyxl no acepta Decimal)."""
     with open(ruta, newline="", encoding="utf-8") as fh:
         filas = list(csv.DictReader(fh))
     for f in filas:
@@ -43,6 +44,7 @@ def leer_csv(ruta):
 
 
 def encabezado(ws, columnas, anchos):
+    """Encabezado fijo, anchos y panel congelado: la primera fila no se va al scrollear."""
     ws.append(columnas)
     for celda, ancho in zip(ws[1], anchos):
         celda.font = CABECERA
@@ -54,6 +56,7 @@ def encabezado(ws, columnas, anchos):
 
 
 def construir(filas, meta):
+    """Arma el libro entero en memoria. Los gráficos son nativos, no imágenes pegadas."""
     wb = Workbook()
 
     ws = wb.active
@@ -65,6 +68,7 @@ def construir(filas, meta):
         ws.append([f["fecha"], f["ym"], f["tipo"], f["letra"], f["nro"], f["cliente"],
                    f["cuit_cli"], f["concepto"], f["total"], f["ccl"], f["pesos_hoy"],
                    f["usd_epoca"], f["usd_hoy"]])
+        # Las NC se marcan en rojo: ya vienen negativas, el color es para el ojo.
         if f["tipo"] == "NC":
             for celda in ws[ws.max_row]:
                 celda.font = ROJO

@@ -28,6 +28,7 @@ COD = {"01": "A", "06": "B", "11": "C", "03": "A", "08": "B", "13": "C",
 
 
 def num(s):
+    """Importe con formato argentino (`1.234.567,89`) → float. None si no parsea."""
     if not s:
         return None
     try:
@@ -37,6 +38,7 @@ def num(s):
 
 
 def solo_digitos(s):
+    """CUIT con o sin guiones → once dígitos, que es como se compara."""
     return re.sub(r"\D", "", s)
 
 
@@ -52,6 +54,8 @@ def emisor_de(texto):
 
 
 def parsear(ruta, forzar_emisor=None):
+    """Un PDF → un registro crudo. Devuelve lo que dice el papel, sin interpretar."""
+    # Import local: el módulo se puede importar (y testear) sin pypdf instalado.
     from pypdf import PdfReader  # import local: el resto del módulo no lo necesita
 
     texto = "\n".join(p.extract_text() or "" for p in PdfReader(str(ruta)).pages)
@@ -60,6 +64,8 @@ def parsear(ruta, forzar_emisor=None):
         "ND" if re.search(r"NOTA DE D", texto, re.I) else "FAC")
     cod = re.search(r"COD\.\s*(\d{2})", texto)
     total = re.search(r"Importe Total:\s*\$\s*([\d.,]+)", texto)
+    # El comprobante trae tres fechas juntas (emisión, vencimiento, período); la
+    # que aparece suelta y sola puede ser cualquiera. Se prefieren las tres.
     tres_fechas = re.search(r"(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})", texto)
     suelta = re.search(r"\d{2}/\d{2}/\d{4}", texto)
     fecha = tres_fechas.group(1) if tres_fechas else (suelta.group(0) if suelta else None)
