@@ -43,9 +43,7 @@ usd_hoy   = pesos_hoy / CCL_ancla
 ## Estructura
 
 ```
-.gitignore                      Archivos excluidos del control de versiones
 LICENSE                         Licencia MIT
-README.md                       Documentación del proyecto
 data/ccl.csv                    Serie histórica mensual de dólar CCL (ym,ccl)
 data/ipc.csv                    Serie histórica mensual de IPC (ym,ipc)
 data/sample/datos.json          Muestra sintética de 137 comprobantes
