@@ -3,6 +3,10 @@
 Toma comprobantes de AFIP en PDF y devuelve un CSV con una fila por comprobante:
 importe nominal, importe en pesos del mes de referencia y en dólares.
 
+Sirve para comparar la facturación de varios años en moneda constante: sin ajustar por
+inflación, un mes de 2021 y uno de este año no se pueden poner en la misma tabla. El pipeline
+deja además el libro de Excel que se entrega a quien decide.
+
 ```
 PDF ──extraer.py──▶ datos.json ──normalizar.py──▶ ventas.csv ──salidas.py──▶ ventas.xlsx
                                         ▲
