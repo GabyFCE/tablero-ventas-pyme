@@ -1,52 +1,21 @@
 # tablero-ventas-pyme
 
-Toma comprobantes de AFIP en PDF y devuelve un CSV con una fila por comprobante:
-importe nominal, importe en pesos del mes de referencia y en dólares.
+Pipeline de extracción y ajuste por inflación de comprobantes electrónicos de AFIP en PDF para análisis de facturación de PyMEs en moneda constante.
 
-Sirve para comparar la facturación de varios años en moneda constante: sin ajustar por
-inflación, un mes de 2021 y uno de este año no se pueden poner en la misma tabla. El pipeline
-deja además el libro de Excel que se entrega a quien decide.
+## Qué es y para qué sirve
+
+La inflación distorsiona la comparación de ventas nominales entre distintos períodos: un mes de 2021 y uno del año en curso no son comparables sin ajuste. Este proyecto lee comprobantes de AFIP en formato PDF, extrae los campos fiscales y cruza cada operación con series mensuales de IPC y dólar Contado con Liquidación (CCL).
+
+El proceso genera un archivo CSV con una fila por comprobante (importe nominal, importe en pesos del mes de referencia e importes en dólares) y un libro de Excel con tablas agregadas y gráficos editables.
 
 ```
-PDF ──extraer.py──▶ datos.json ──normalizar.py──▶ ventas.csv ──salidas.py──▶ ventas.xlsx
+PDF ──extraer.py──▶ datos.json ──normalizar.py──▶ ventas_normalizadas.csv ──salidas.py──▶ ventas.xlsx
                                         ▲
                           data/ipc.csv ─┤
                           data/ccl.csv ─┘
 ```
 
-## Requisitos
-
-Python 3.9 o superior. `pypdf` para leer PDFs, `openpyxl` para el libro de Excel. El paso de normalización usa solo la biblioteca estándar.
-
-```bash
-pip install pypdf openpyxl
-```
-
-## Uso
-
-```bash
-# comprobantes → registros crudos
-python3 src/extraer.py --pdfs comprobantes/ --salida datos.json
-
-# registros + series → CSV
-python3 src/normalizar.py --datos datos.json --salida out/ventas.csv
-
-# CSV → libro de Excel
-python3 src/salidas.py --csv out/ventas.csv --xlsx out/ventas.xlsx
-```
-
-El repo no incluye comprobantes. Para correr el pipeline completo hay un dataset sintético:
-
-```bash
-python3 scripts/generar_muestra.py     # 137 registros inventados, semilla fija
-python3 src/normalizar.py              # lee data/sample/datos.json
-python3 src/salidas.py
-python3 -m unittest discover -s tests
-```
-
-## Cálculo
-
-Las series son niveles mensuales. Con `IPC` y `CCL` del mes de cada comprobante:
+Fórmulas aplicadas sobre los niveles mensuales de cada serie (las notas de crédito ingresan en negativo antes del cálculo):
 
 ```
 pesos_hoy = total × (IPC_ancla / IPC_mes)
@@ -54,90 +23,75 @@ usd_epoca = total / CCL_mes
 usd_hoy   = pesos_hoy / CCL_ancla
 ```
 
-El ancla por defecto es el último mes publicado de cada serie. También se puede fijar:
+## Qué incluye
+
+| Componente | Entrada | Salida | Detalle |
+| --- | --- | --- | --- |
+| `src/extraer.py` | Directorio de PDFs | `datos.json` | Extrae emisor, tipo (`FAC`, `NC`, `ND`), letra, fecha, montos, cliente, CUIT e ítems. |
+| `src/normalizar.py` | `datos.json`, `ipc.csv`, `ccl.csv` | `out/ventas_normalizadas.csv` y `.meta.json` | Calcula 14 columnas y registra en el archivo meta los anclajes, conteos, `meses_sin_serie` y el SHA-256 del CSV. |
+| `src/salidas.py` | `out/ventas_normalizadas.csv` | `out/ventas.xlsx` | Genera cinco hojas: Comprobantes, Resumen anual, Mensual, Clientes y Metodología. |
+| `scripts/generar_muestra.py` | Semilla fija | `data/sample/datos.json` | Genera 137 registros sintéticos para pruebas sin comprobantes reales. |
+| `tests/` | Texto y datos de prueba | Reporte por consola | 15 pruebas sobre determinismo, notas de crédito, deflación, huecos de serie y cierre del resumen anual. |
+
+## Decisiones técnicas
+
+- **Normalización solo con la biblioteca estándar:** `src/normalizar.py` no utiliza paquetes externos ni conexiones de red, en lugar de depender de librerías externas de análisis de datos. Esto permite auditar y ejecutar el cálculo financiero sin instalar dependencias ni exponer datos fiscales.
+- **Etapas desacopladas por archivos intermedios:** La extracción desde PDF (`pypdf`), el cálculo y el armado de Excel (`openpyxl`) se ejecutan por separado, en lugar de integrar todo en un único proceso. Si cambia el formato del PDF de AFIP, se adapta `src/extraer.py` sin alterar el motor de cálculo; si `openpyxl` no está instalado, las pruebas de Excel se omiten sin bloquear la validación del CSV.
+- **Series de IPC y CCL en archivos CSV locales:** Las series (`ym,ipc` e `ym,ccl` en formato `AAAA-MM`) se actualizan a mano y se versionan en el repositorio, en lugar de consultar APIs externas en tiempo de ejecución. Esto garantiza determinismo (dos corridas producen el mismo SHA-256). Si falta un mes intermedio, la ejecución se detiene con error; si un comprobante es posterior al último mes publicado, utiliza el último valor disponible y queda registrado en `meses_sin_serie`.
+- **CCL como promedio mensual:** Se utiliza el promedio del mes del comprobante en lugar de la cotización diaria, manteniendo la misma granularidad mensual que la serie del IPC.
+
+## Estructura
+
+```
+.gitignore                      Archivos excluidos del control de versiones
+LICENSE                         Licencia MIT
+README.md                       Documentación del proyecto
+data/ccl.csv                    Serie histórica mensual de dólar CCL (ym,ccl)
+data/ipc.csv                    Serie histórica mensual de IPC (ym,ipc)
+data/sample/datos.json          Muestra sintética de 137 comprobantes
+docs/esquema.md                 Notas de implementación y detalle de formatos
+scripts/generar_muestra.py      Generador del conjunto de datos sintético con semilla fija
+src/extraer.py                  Extractor de campos desde PDFs de AFIP a JSON
+src/normalizar.py               Cálculo de moneda constante y generación de CSV y metadatos
+src/salidas.py                  Generador del libro de Excel de cinco hojas desde el CSV
+tests/test_extraer_y_salidas.py Pruebas de extracción de texto y generación de Excel
+tests/test_normalizar.py        Pruebas de cálculo, anclajes, determinismo y validación de series
+```
+
+## Cómo se usa
+
+Requiere Python 3.9 o superior. Instalar las dependencias para lectura de PDF y escritura de Excel:
+
+```bash
+pip install pypdf openpyxl
+```
+
+Ejecución con comprobantes propios en PDF:
+
+```bash
+python3 src/extraer.py --pdfs comprobantes/ --salida datos.json
+python3 src/normalizar.py --datos datos.json --salida out/ventas_normalizadas.csv
+python3 src/salidas.py --csv out/ventas_normalizadas.csv --xlsx out/ventas.xlsx
+```
+
+Si un PDF no incluye el CUIT del emisor en su propia línea, se especifica con `--emisor`. Para fijar manualmente el mes de referencia de IPC y el valor de CCL en lugar de usar el último mes publicado:
 
 ```bash
 python3 src/normalizar.py --ipc-anchor 2026-10 --ccl-anchor 1693.29
 ```
 
-Cambiar el ancla modifica los importes en pesos y dólares de hoy, no las filas ni los nominales. El ancla usada queda en `out/ventas.csv.meta.json`, junto al SHA-256 del CSV.
-
-Las notas de crédito entran en negativo antes de cualquier cálculo.
-
-Un mes posterior al último dato publicado usa el último valor de la serie y queda registrado en `meses_sin_serie`. Un mes faltante en el medio de la serie corta la ejecución con error.
-
-## Formato de entrada
-
-`datos.json`, un registro por comprobante:
-
-```json
-{
-  "file": "20111111112_001_00001_00000123.pdf",
-  "emisor": "20111111112",
-  "tipo": "FAC",
-  "letra": "A",
-  "fecha": "08/01/2026",
-  "total": 1234567.89,
-  "neto": 1020303.21,
-  "cliente": "CLIENTE ALFA S.A.",
-  "cuit_cli": "30711111116",
-  "pv": "00001",
-  "nro": "00000123",
-  "ref": null,
-  "concepto": "Carcasa de turbina arenada 2,00 unidades ...",
-  "items": ["Carcasa de turbina arenada 2,00 unidades ..."]
-}
-```
-
-`tipo` es `FAC`, `NC` o `ND`.
-
-`data/ipc.csv` tiene las columnas `ym,ipc` y `data/ccl.csv` las columnas `ym,ccl`. Una fila por mes, `ym` en formato `AAAA-MM`. Las series se actualizan a mano y se versionan en el repo.
-
-## Formato de salida
-
-`out/ventas.csv` tiene catorce columnas:
-
-```
-ym, y, tipo, letra, fecha, cliente, cuit_cli, nro, concepto,
-total, ccl, pesos_hoy, usd_epoca, usd_hoy
-```
-
-Al lado queda `out/ventas.csv.meta.json` con anclajes, conteos, `meses_sin_serie` y SHA-256.
-
-`ventas.xlsx` tiene cinco hojas: Comprobantes, Resumen anual, Mensual, Clientes y Metodología. Los gráficos son objetos de Excel y se pueden editar.
-
-## Tests
+Ejecución de extremo a extremo con la muestra sintética y corrida de las 15 pruebas unitarias:
 
 ```bash
+python3 scripts/generar_muestra.py
+python3 src/normalizar.py
+python3 src/salidas.py
 python3 -m unittest discover -s tests -v
 ```
 
-Quince tests: determinismo (dos corridas, mismo SHA-256), notas de crédito negativas, fórmula de deflación contra el IPC del mes, anclaje de CCL, hueco interno como error, mes sin publicar, detección del CUIT del emisor, y que el resumen anual del libro cierre contra el CSV.
+## Estado del contenido
 
-Los tests de extracción usan texto de ejemplo, no PDFs. Los de Excel se saltean si `openpyxl` no está instalado.
-
-## Límites
-
-- El CCL es promedio mensual, no la cotización del día del comprobante.
-- El IPC se publica con un mes de rezago. Los comprobantes posteriores al último dato quedan en valores nominales hasta la próxima actualización de `data/ipc.csv`.
-- Los regex de extracción corresponden al PDF estándar de AFIP. Un cambio de formato rompe la extracción. El paso de normalización no lee PDFs y no se ve afectado.
-- El CUIT del emisor se lee del comprobante. Si un PDF no lo trae en su propia línea, se pasa con `--emisor`.
-
-## Estructura
-
-```
-src/extraer.py       PDF → registros crudos (pypdf)
-src/normalizar.py    registros + series → CSV (stdlib, sin red)
-src/salidas.py       CSV → xlsx (openpyxl)
-scripts/             generador del dataset sintético
-data/                series IPC y CCL, muestra sintética
-tests/               unittest
-docs/esquema.md      notas de implementación
-```
-
-## Datos
-
-`data/sample/datos.json` es sintético: nombres y CUIT inventados, importes generados con semilla fija. Las series de IPC y CCL son públicas.
+El repositorio no incluye comprobantes reales. El archivo `data/sample/datos.json` contiene 137 registros sintéticos con razones sociales, números de CUIT e importes generados mediante semilla fija. Las series en `data/ipc.csv` y `data/ccl.csv` contienen datos públicos reales.
 
 ## Licencia
 
